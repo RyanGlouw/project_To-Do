@@ -1,0 +1,39 @@
+body {
+    background-color: wheat!important;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+}
+
+form {
+    display: flex;
+    background: silver;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+
+.btn {
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+
+}
+li {
+    width: 30%;
+    margin-top: 1rem;
+    display: flex;
+    background-color: turquoise;
+    border-radius: 5%;
+    align-items: center;
+}
